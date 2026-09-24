@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDRnenZ2N3ppejVoOGxsd3JyYTRkc21kcnUwZnQ3MXJlcWZuNXBvbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pNLoBU0ZMLs2ltXkFV/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 5px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.button-group button:hover {
+    background-color: #e2e6ea;
+}
+
+#output {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #171515;
+}

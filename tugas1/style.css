@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 40px 16px;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #38bdf8);
+    font-family: "Poppins", Arial, sans-serif;
+    color: #1e293b;
+}
+
+.profile-table {
+    width: 70%;
+    max-width: 950px;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.35);
+}
+
+.profile-table th,
+.profile-table td {
+    border: none;
+}
+
+.header-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #0f172a, #1e40af);
+}
+
+.banner-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    border: 4px solid #ffffff;
+    border-radius: 14px;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.social-section {
+    padding: 16px;
+    background-color: #eff6ff;
+    line-height: 1.9;
+}
+
+.social-section a {
+    color: #1d4ed8;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-section a:hover {
+    color: #ef4444;
+    text-decoration: underline;
+}
+
+.photo-section {
+    width: 35%;
+    padding: 28px 16px;
+    background: linear-gradient(180deg, #f8fafc, #dbeafe);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profile-image {
+    width: 190px;
+    max-width: 100%;
+    height: 250px;
+    border: 5px solid #ffffff;
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow: 0 10px 22px rgba(30, 64, 175, 0.3);
+}
+
+.bio-section {
+    padding: 28px;
+    background-color: #ffffff;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.bio-section p:first-child {
+    margin-top: 0;
+}
+
+.quote {
+    margin: 24px 0 0;
+    padding: 16px;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+    background-color: #eff6ff;
+    color: #1e3a8a;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer-section {
+    padding: 20px;
+    background: linear-gradient(135deg, #0f172a, #1e40af);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .profile-table {
+        width: 100%;
+    }
+
+    .profile-table,
+    .profile-table tbody,
+    .profile-table tr,
+    .profile-table td,
+    .profile-table th {
+        display: block;
+        width: 100%;
+    }
+
+    .photo-section {
+        padding-bottom: 10px;
+    }
+
+    .bio-section {
+        padding: 22px;
+        text-align: left;
+    }
+
+    .banner-image {
+        height: 180px;
+    }
+}

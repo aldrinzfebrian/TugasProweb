@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NWZhNzNmbWppb3BmbjR5NGY5M2M0bnB6Nmh1OG43ZWY4Mnp2ajRiMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KZRkHRdUCJE79gTX2M/giphy.gif') repeat no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.container {
+    background: #ffffff; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #1e293b; 
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #1c2c51;
+    font-size: 15px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #334155; 
+    letter-spacing: 0.3px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e293b;
+    background-color: #ffffff;
+    outline: none;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #1c2c51;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group label,
+div > label[for="syarat"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+    color: #475569;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #1c2c51;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #284076;
+}

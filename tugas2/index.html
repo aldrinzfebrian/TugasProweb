@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM PENDAFTARAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DAFTAR DUTA KEWARASAN</h1>
+        <p>MOHON SELESAIKAN DATA ANDA DENGAN TEPAT!</p>
+        <form>
+            <fieldset>
+            <legend>Being Perfect Person</legend>
+            <div class="form-group"></div>
+                <label>NAMA LENGKAP : </label>
+                    <input type="text" placeholder="Nama Anda"><br><br>
+            <div class="form-group"></div>
+                <label>UNIVERSITAS : </label> 
+                    <input type="text" placeholder="Asal Universitas"><br><br>
+            <div class="form-group"></div>
+                <label>FAKULTAS :</label>
+                    <input type="text" placeholder="Asal Fakultas"><br><br>
+            <div class="form-group"></div>
+                 <label> JURUSAN : </label>
+                    <input type="text" placeholder="Asal Jurusan"><br><br>
+            <div class="form-group"></div>
+                <label> STAMBUK : </label>
+                    <input type="text" placeholder="205/2026"><br><br>
+
+            <div class="form-group">
+                <label>JENIS KELAMIN:</label>
+            <div class="radio-group">
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="laki-laki">
+                        Laki-laki
+                    </label>
+                    <label>
+                        <input type="radio" name="jenis_kelamin" value="perempuan">
+                        Perempuan
+                    </label>
+            </div>
+
+            <div class="form-group">
+                    <label for="Deskripsi Diri Anda">DESKRIPSI DIRI : </label>
+                    <textarea id="Deskripsi" name="Deskripsi" rows="10"
+                    placeholder="Jelaskan kepribadian anda."></textarea>
+            </div>
+                <br>
+                <div>
+                    <label for="source">Darimana anda mengetahui DUTA KEWARASAN?</label>
+                        <select name="source">
+                            <optgroup label="Sosial Media">
+                                <option value="instagram">Instagram</option>
+                                <option value="tiktok">Tiktok</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="youtube">Youtube</option>
+                            </optgroup>
+                            <optgroup label="Sumber lain">
+                                <option value="brosur">Brosur</option>
+                                <option value="teman">Teman</option>
+                                <option value="lainlain">Lain lain</option>
+                            </optgroup>
+                            </select>
+                        </div>
+                        <div>
+                        <br>
+                            <input type="checkbox" name="syarat">
+                            <label for="syarat">Saya telah membaca dan menyetujui Syarat & Ketentuan</label>
+                        </div>
+        <button type="submit">UNGGAH DATA</button>    
+
+
+        </form>
+        </fieldset>
+    </div>
+</body>
+</html>
